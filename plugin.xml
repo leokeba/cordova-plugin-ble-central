@@ -39,7 +39,7 @@
         <framework src="CoreBluetooth.framework" />
 
         <!-- iOS Permissions -->
-        <preference name="BLUETOOTH_USAGE_DESCRIPTION" default=" " />
+        <preference name="BLUETOOTH_USAGE_DESCRIPTION" default="This app needs BLE in order to receive data from the device" />
         <config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription">
             <string>$BLUETOOTH_USAGE_DESCRIPTION</string>
         </config-file>
